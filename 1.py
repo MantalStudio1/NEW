@@ -75,7 +75,7 @@ fb = random.choice(['https://www.facebook.com/HTTPCustomIndonesia', 'https://www
 facebook = fb
 def login():
     os.system('clear')
-    print ('banner')
+    print (banner)
     print '\x1b[31;1m' + 50 * '-'
     print ' %s[%s1%s] Login via token\n%s [%s2%s] Login via cookie' % (p, b, p, p, b, p)
     pil_log = raw_input('\n%s [%s\xe2\x80\xa2%s] Choose: ' % (p, b, p))
